@@ -78,8 +78,12 @@ export const metadata: Metadata = {
     images: ["/djfw_logo.png"],
   },
   icons: {
-    icon: [{ url: "/djfw_logo.jpeg", type: "image/jpeg" }],
-    apple: "/djfw_logo.jpeg",
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "any" },
+      { url: "/djfw_logo.jpeg", type: "image/jpeg" },
+    ],
+    apple: "/djfw_logo.png",
+    shortcut: "/icon.png",
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
@@ -127,8 +131,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${newsreader.variable} ${publicSans.variable} scroll-smooth`}>
       <head>
-        <link rel="icon" href="/djfw_logo.jpeg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/djfw_logo.jpeg" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"

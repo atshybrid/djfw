@@ -305,7 +305,7 @@ export default function MembersPage() {
         </section>
 
         {/* ── Search + District Filter ──────────────────── */}
-        <div className="sticky top-[60px] z-40 bg-surface/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div className="sticky top-15 z-40 bg-surface/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
           <div className="max-w-7xl mx-auto px-6 lg:px-10 py-3 flex flex-col sm:flex-row gap-3 items-start sm:items-center">
             {/* Search */}
             <div className="relative flex-1 min-w-0 max-w-xs">
