@@ -78,12 +78,9 @@ export const metadata: Metadata = {
     images: ["/djfw_logo.png"],
   },
   icons: {
-    icon: [
-      { url: "/icon.png", type: "image/png", sizes: "any" },
-      { url: "/djfw_logo.jpeg", type: "image/jpeg" },
-    ],
-    apple: "/djfw_logo.png",
-    shortcut: "/icon.png",
+    icon: [{ url: "/djfw_logo.jpeg", type: "image/jpeg", sizes: "any" }],
+    apple: "/djfw_logo.jpeg",
+    shortcut: "/djfw_logo.jpeg",
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
